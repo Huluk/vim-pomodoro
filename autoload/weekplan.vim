@@ -9,7 +9,7 @@ let g:weekplan_copy_dict = {
             \ 'Always':'Today'}
 
 let g:weekplan_pomodoro_count_regex =
-            \ '"---? (?<result>\d*(\.5)?)(\/\d*(\.5)?)?$"'
+            \ '"---? (?<result>\d*(\.5)?)(\/\d*(\.\d)?)?$"'
 
 let s:weekplan_manager_file = expand('<sfile>:p:h') . '/weekplan.rb'
 
